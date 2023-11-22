@@ -1,0 +1,210 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background: #0F0F1B;
+     width: 1280px;
+     height: 832px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .container {
+     width: 700px;
+     height: 350px;
+
+     margin-top: 100px;
+ }
+
+ .container h1 {
+     display: flex;
+     justify-content: center;
+     color: #FFF;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     margin-bottom: 10px;
+ }
+
+ .container p {
+     color: #FFF;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     display: flex;
+     justify-content: center;
+     margin-bottom: 30px;
+ }
+
+ .card {
+     width: 185px;
+     height: 185px;
+     display: flex;
+     flex-direction: column;
+     padding: 10px 20px;
+     align-items: flex-start;
+     justify-content: center;
+     
+     
+ }
+
+
+ .card-1 {
+     background: #242486;
+     border-radius: 10px;
+     border: 1px solid #242486;
+     
+
+ }
+
+ .card-1 h2 {
+     width: 145px;
+     height: 48px;
+     color: #FFF;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+ }
+
+ .card-1 h4 {
+     width: 145px;
+     color: #FFF;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     display: flex;
+     justify-content: start;
+     padding-bottom: 51px;
+ }
+
+ .card-symvols a {
+     width: 68px;
+     color: #FFF;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: normal;
+     text-decoration: none;
+ }
+
+ .card-symvols img {
+     width: 14px;
+     height: 14px;
+ }
+
+ .card-2 {
+     border-radius: 10px;
+     background: #171727;
+    position: relative;
+    border: 1px solid #171727;
+ }
+
+ .card-2::after {
+     content: "Best price";
+     width: 65px;
+     height: 15px;
+     display: inline-block;
+     border-radius: 20px;
+     border: 1px solid #69699A;
+     background: #A0E0B2;
+     position: absolute ;
+     left: 50%;
+     top: -7px;
+     transform: translate(-50%);
+
+ }
+
+ .card-2 h2 {
+     width: 145px;
+     height: 48px;
+     color: #FFF;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+ }
+
+ .card-2 h4 {
+     width: 145px;
+     color: #FFF;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     display: flex;
+     justify-content: start;
+     padding-bottom: 10px;
+ }
+
+ .card-2 p {
+     color: #FFF;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: normal;
+     display: flex;
+     justify-content: start;
+ }
+
+ .cards {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .card-3 {
+     border-radius: 10px;
+     background: #171727;
+     border: 1px solid #171727;
+
+ }
+
+ .card-3 h2 {
+     width: 145px;
+     height: 48px;
+     color: #FFF;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+ }
+
+ .card-3 h4 {
+     width: 145px;
+     color: #FFF;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     display: flex;
+     justify-content: start;
+     padding-bottom: 10px;
+ }
+
+ .card-3 p {
+     color: #FFF;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: normal;
+     display: flex;
+     justify-content: start;
+ }
+
+ button {
+    width: 93px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #69699A;
+    background-color: rgba(217, 217, 217, 0.00);
+    color: #69699A;
+ }
